@@ -1,33 +1,35 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Collin
   middle:
-  last: Doe
+  last: Pfeifer
 about: Hi, my name is John Doe. I"m just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 2002
+  location: Indiana
 
 experience:
-- company: Company A
-  position: Developer
+- company: Fusion 92
+  position: Software Engineer Intern
   timeperiod: since January 2016
   description: Programming and watching cute cat videos.
-  website: https://example.com
+  website: https://fusion92.com
 
-- company: Company B
-  position: Frontend Developer
+- company: Advanced Intelligence Services
+  position: Web Developemnt Intern
   timeperiod: January 2015 - December 2015
   description: Fulfillment of extremely important tasks.
+  website: https://aisincorporated.com
 
-- company: Company C
-  position: Trainee
+- company: Code Ninjas
+  position: Code Sensei Tutor\
   timeperiod: March 2014 - December 2014
   description: Making coffee and baking cookies.
+  website: https://codeninjas.com
 
 education:
 - degree: Master of Arts
@@ -46,26 +48,28 @@ skills:
 - name: CSS3
   level: 95
 - name: JavaScript
-  level: 97
+  level: 90
 - name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
+  level: 90
+- name: React
+  level: 95
+- name: Django
+  level: 85
+- name: Python
+  level: 90
+- name: Java
+  level: 90
+- name: 
+  level:
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
+- name: hello friend
+  platform: React and Node.js
+  timeperiod: July 2020
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+  url: https://github.com/collinpfeifer/hello-friend
 
 hobbies:
 - name: Video Games
@@ -82,12 +86,11 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: collinpfeifer@icloud.com
+  phone: 317-995-5114
+  city: Fishers
+  website: collinpfeifer.com
+  github: collinpfeifer
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
