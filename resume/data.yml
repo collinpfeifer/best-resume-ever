@@ -3,9 +3,7 @@ name:
   first: Collin
   middle:
   last: Pfeifer
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+about: Hi, my name is Collin Pfeifer. I've been interested in technology ever since I was a kid, taking apart DVR players and exploring the working parts, and watching hacking videos on YouTube. As a senior at Hamilton Southeastern High School I have expanded my passion for computer science by taking relevant coursework and proven my hard working abilities by taking college-level course work in multiple fields. 
 position: Software Developer
 
 birth:
@@ -13,33 +11,35 @@ birth:
   location: Indiana
 
 experience:
-- company: Fusion 92
+- company: Fusion 902
   position: Software Engineer Intern
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+  timeperiod: Since November 2020
+  description: Developed and released to the market multiple websites for existing veterinary centers with Azure and Python automation, along with work along side Linux and Windows servers
   website: https://fusion92.com
 
 - company: Advanced Intelligence Services
-  position: Web Developemnt Intern
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+  position: Web Development Intern
+  timeperiod: Since October 2020
+  description: Worked with development team to modernize and recreate company website and integrate MERN stack to add security and resuability
   website: https://aisincorporated.com
 
 - company: Code Ninjas
-  position: Code Sensei Tutor\
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  position: Code Sensei Tutor
+  timeperiod: Since February 2020
+  description: Tutored kids between the ages 8-14, and gained leadership, learning, and computer science skills, specifically in JavaScript and C#
   website: https://codeninjas.com
 
-education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- company: Nextech Systems
+  position: Web Development Intern
+  timeperiod: June 2020 - August 2020
+  description: Furthered my HTML5, CSS3, and JavaScript skills through a development project with Node.js and React frameworks
+  website: https://nextech.org
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+education:
+- degree: General Education Degree
+  timeperiod: August 2017 - July 2021
+  description: Recieved an Academic Honors diploma along with taking 10+ AP and Dual-Credit courses
+  website: https://www.hseschools.org
 
 # skill level goes 0 to 100
 skills:
@@ -57,37 +57,28 @@ skills:
   level: 85
 - name: Python
   level: 90
+- name: C/C++
+  level: 80
 - name: Java
   level: 90
-- name: 
-  level:
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge: Proficient in MacOS, Windows, Linux operating systems, and Microsoft suite tools
 
 projects:
 - name: hello friend
   platform: React and Node.js
   timeperiod: July 2020
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  description: An automated journaling app centered around fighting symptoms of depression, anxiety, and PTSD
   url: https://github.com/collinpfeifer/hello-friend
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+ 
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+
 
 contact:
   email: collinpfeifer@icloud.com
   phone: 317-995-5114
+  street: 12807 Rotterdam Rd
   city: Fishers
   website: collinpfeifer.com
   github: collinpfeifer
