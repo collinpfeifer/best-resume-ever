@@ -52,7 +52,8 @@ function getVueOptions (name) {
                 }
 
                 if(this.person.contact.linkedin) {
-                    links.linkedin = `https://linkedin.com/in/${this.person.contact.linkedin}`;
+                    // eslint-disable-next-line quotes
+                    links.linkedin = `https://www.linkedin.com/in/collin-pfeifer-5b77831a7/`;
                 }
 
                 if(this.person.contact.phone) {

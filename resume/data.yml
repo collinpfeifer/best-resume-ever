@@ -3,43 +3,60 @@ name:
   first: Collin
   middle:
   last: Pfeifer
-about: Hi, my name is Collin Pfeifer. I've been interested in technology ever since I was a kid, taking apart DVR players and exploring the working parts, and watching hacking videos on YouTube. As a senior at Hamilton Southeastern High School I have expanded my passion for computer science by taking relevant coursework and proven my hard working abilities by taking college-level course work in multiple fields. 
-position: Software Developer
-
-birth:
-  year: 2002
-  location: Indiana
+about: Collin Pfeifer been interested in technology ever since he was a kid, taking apart DVR players, exploring the working parts and learning about how computer systems work. As a senior at Hamilton Southeastern High School he has expanded his passion for computer science by taking relevant coursework and proven his hard working and team oriented abilities by taking college-level course work in multiple fields. Collin loves helping others, whether through his technology realted skills or through volunteering, he wants to do everything he can to help the less fortunate.
+position: Fullstack Developer
 
 experience:
 - company: Fusion 92
   position: Software Engineer Intern
   timeperiod: Since November 2020
-  description: Developed and released to the market multiple websites for existing veterinary centers with Azure and Python automation, along with work along side Linux and Windows servers
+  description: Worked on the backend of a site with over a million hits per year and improved security features throughout multiple Vue and Express web-apps and APIs 
   website: https://fusion92.com
 
 - company: Advanced Intelligence Services
   position: Web Development Intern
   timeperiod: Since October 2020
-  description: Worked with development team to modernize and recreate company website and integrate MERN stack to add security and resuability
+  description: Worked with web development team to modernize and recreate company website and integrate MERN stack to add security and resuability
   website: https://aisincorporated.com
 
 - company: Code Ninjas
   position: Code Sensei Tutor
   timeperiod: Since February 2020
-  description: Tutored kids between the ages 8-14, and gained leadership, learning, and computer science skills, specifically in JavaScript and C#
+  description: Tutored students between the ages 8-14, while gaining leadership, learning, and computer science skills, specifically in JavaScript and C#
   website: https://codeninjas.com
 
 - company: Nextech Systems
   position: Web Development Intern
   timeperiod: June 2020 - August 2020
-  description: Furthered my HTML5, CSS3, and JavaScript skills through a development project with Node.js and React frameworks
+  description: Improved my HTML5, CSS3, and JavaScript skills through workshops and a development project with an introdcution to Node.js and React frameworks
   website: https://nextech.org
 
 education:
 - degree: General Education Degree
   timeperiod: August 2017 - July 2021
-  description: Recieved an Academic Honors diploma along with taking 10+ AP and Dual-Credit courses
+  description: Recieved an Academic Honors diploma along with taking 15 AP and Dual-Credit college courses
   website: https://www.hseschools.org
+
+certificates:
+- course: Modern React and Redux
+  admin: Udemy
+  description: A modern React and Redux course including hooks, APIs, context, and Redux
+  link: https://www.udemy.com/certificate/UC-acfa5b1a-993d-4e7d-9b59-45b2204b97f0/
+
+- course: The Complete Node.js Developer Course
+  admin: Udemy
+  description: A modern Node.js course covering everything from Express and CLI tools to websockets and testing
+  link: https://www.udemy.com/certificate/UC-25b90b47-2faa-4d6d-8e96-3b106af2fe48/
+
+- course: React Testing with Jest and Enzyme
+  admin: Udemy
+  description: A course for testing React components along with hooks, API calls, context, and Redux
+  link: https://www.udemy.com/certificate/UC-d6e543a5-e704-4a9c-859b-157cebe1164f/
+
+- course: Using Typescript with React
+  admin: Udemy
+  description: A course for integrating Typescript and types into React components, hooks and Redux
+  link: https://www.udemy.com/certificate/UC-c04fc846-2406-4b89-874c-327c16473241/
 
 # skill level goes 0 to 100
 skills:
@@ -49,39 +66,52 @@ skills:
   level: 95
 - name: JavaScript
   level: 90
+- name: TypeScript
+  level: 80
 - name: Node.js
   level: 90
+- name: Express
+  level: 85
+- name: Jest
+  level: 80
 - name: React
   level: 95
-- name: Django
+- name: Redux.js
   level: 85
-- name: Python
+- name: Next.js
+  level: 85
+- name: Bootstrap
   level: 90
-- name: C/C++
+- name: GraphQL
   level: 80
-- name: Java
-  level: 90
+- name: Apollo
+  level: 80
+- name: MongoDB
+  level: 85
+- name: Git
+  level: 85
 knowledge: Proficient in MacOS, Windows, Linux operating systems, and Microsoft suite tools
 
 projects:
-- name: hello friend
-  platform: React and Node.js
+- name: Tweet Gram
+  platform: React, Node.js, GraphQL, Apollo, Material UI, MongoDB
+  timeperiod: December 2020
+  description: A social media clone with CRUD operations
+  url: https://github.com/collinpfeifer/TweetGram
+
+- name: Recluse Stream
+  platform: React, Node.js, Redux
   timeperiod: July 2020
-  description: An automated journaling app centered around fighting symptoms of depression, anxiety, and PTSD
-  url: https://github.com/collinpfeifer/hello-friend
-
-
- 
-
-
+  description: A streaming web app with Google Auth, using OBS as a streaming platform and Node Media Server to serve up streams
+  url: https://github.com/collinpfeifer/RecluseStream
 
 contact:
   email: collinpfeifer@icloud.com
   phone: 317-995-5114
-  street: 12807 Rotterdam Rd
   city: Fishers
   website: collinpfeifer.com
   github: collinpfeifer
+  linkedin: Collin Pfeifer
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

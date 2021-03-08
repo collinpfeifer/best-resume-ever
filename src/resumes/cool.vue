@@ -48,9 +48,6 @@
           </div>
 
           <div class="section-content section-content--plain">
-            <div class="section-link">
-              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
-            </div>
 
             <a
               class="section-link link"
@@ -133,13 +130,33 @@
               :href="education.website">
 
               <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
+              <span class="section-content__header">{{ education.degree }}</span>
               <span class="section-content__text"> {{ education.timeperiod }} </span>
               <span class="section-content__text--light"> {{ education.description }} </span>
             </a>
           </div>
         </div>
 
+        <div class="section">
+            <div class="section-headline">
+              <i class="section-headline__icon material-icons">important_devices</i>{{ lang.certificates }}
+            </div>
+
+            <div class='section-content'>
+            <a
+              v-for="(certificates, index) in person.certificates"
+              class="section-content__item"
+              :key="index"
+              :class="{ link: certificates.link !== undefined}"
+              :href="certificates.link">
+
+              <span class="section-content__header">{{ certificates.course}}</span>
+              <span class="section-content__text"> {{ certificates.admin }} 
+              </span>
+              <span class="section-content__text--light"> {{ certificates.description }} </span>
+            </a>
+            </div>
+          </div>
         <div
           v-if="person.projects"
           class="section">
@@ -199,11 +216,11 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 @accent-color: #34495E;
-@banner-color: #42b883;
-@banner-height: 120px;
+@banner-color: #cccccc;
+@banner-height: 80px;
 @picture-size: 120px;
 @picture-offset: 35px;
-@base-padding: 30px;
+@base-padding: 25px;
 @left-column-width: 240px;
 
 .link {
@@ -244,7 +261,7 @@ export default Vue.component(name, getVueOptions(name));
     background-repeat: no-repeat;
     background-size: cover;
   */
-  color: white;
+  color: @accent-color;
 
   &__fullname {
     font-size: 32px;
