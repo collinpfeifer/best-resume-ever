@@ -13,17 +13,17 @@ experience:
   description: Worked on the backend of a site with over a million hits per year and improved security features throughout multiple Vue and Express web-apps and APIs 
   website: https://fusion92.com
 
-- company: Advanced Intelligence Services
-  position: Web Development Intern
-  timeperiod: Since October 2020
-  description: Worked with web development team to modernize and recreate company website and integrate MERN stack to add security and resuability
-  website: https://aisincorporated.com
-
 - company: Code Ninjas
   position: Code Sensei Tutor
   timeperiod: Since February 2020
   description: Tutored students between the ages 8-14, while gaining leadership, learning, and computer science skills, specifically in JavaScript and C#
   website: https://codeninjas.com
+  
+- company: Advanced Intelligence Services
+  position: Web Development Intern
+  timeperiod: October 2020 - March 2021
+  description: Worked with web development team to modernize and recreate company website and integrate MERN stack to add security and resuability
+  website: https://aisincorporated.com
 
 - company: Nextech Systems
   position: Web Development Intern
